@@ -13,7 +13,7 @@ Setting up the server:
 
 If you are using Python 3.7.6 or a newer version, run the following command to start the server:
 
-bash
+
 
 $ python3 server.py
 
@@ -21,7 +21,7 @@ $ python3 server.py
 
 You will also need to set up a client to see messages on the terminal. To do this, run the following command:
 
-bash
+
 
 $ python3 client.py
 
