@@ -3,7 +3,7 @@ import threading
 
 
 ip = input("[*] Enter IP of server: ")
-port = input("[*] Enter port of server: ")
+port = int(input("[*] Enter port of server: "))
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((ip, port))
 
